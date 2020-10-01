@@ -1,9 +1,9 @@
-import React, { Component } from "react";
-import { Link } from "react-router-dom";
-import axios from "axios";
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+import axios from 'axios';
 
-import PokemonType from "./PokemonType";
-import "./Pokemon.css";
+import PokemonType from './PokemonType';
+import './Pokemon.css';
 
 export default class Pokemon extends Component {
   constructor(props) {

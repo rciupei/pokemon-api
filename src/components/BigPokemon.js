@@ -1,9 +1,9 @@
-import React, { Component } from "react";
-import pokeApi from "../api/pokeApi";
+import React, { Component } from 'react';
+import pokeApi from '../api/pokeApi';
 
-import PokemonType from "./PokemonType";
-import Spinner from "./Spinner";
-import "./BigPokemon.css";
+import PokemonType from './PokemonType';
+import Spinner from './Spinner';
+import './BigPokemon.css';
 
 export default class Pokemon extends Component {
   constructor(props) {

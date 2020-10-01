@@ -1,9 +1,9 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
-import Pokemon from "./Pokemon";
-import Spinner from "./Spinner";
+import Pokemon from './Pokemon';
+import Spinner from './Spinner';
 
-import pokeApi from "../api/pokeApi";
+import pokeApi from '../api/pokeApi';
 
 const limit = 9;
 
